@@ -58,7 +58,7 @@ class mongodb::repo (
           'Ubuntu' => 'multiverse',
           default => undef
         }
-        $key         = '492EAFE8CD016A07919F1D2B9ECBEC467F0CEB10'
+        $key         = '42F3E95A2C4F08279C4960ADD68FA50FEA312927'
         $key_server  = 'hkp://keyserver.ubuntu.com:80'
       } else {
         $location = $::operatingsystem ? {
